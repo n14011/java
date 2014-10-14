@@ -15,9 +15,9 @@ class Ex1_2 extends Ex {
 }
 
 class Ex1_3 extends Ex {
-    void execute(){
-        System.out.println("花\n城\n\n貴\n文");
-    }
+	void execute(){
+		System.out.println("花\n城\n\n貴\n文");
+	}
 }
 public class Ex1 {
 	public static void main(String[] args){
@@ -26,8 +26,8 @@ public class Ex1 {
 		a.execute();
 		a = new Ex1_2();
 		a.execute();
-        a = new Ex1_3();
-        a.execute();
+		a = new Ex1_3();
+		a.execute();
 	}
 }
 
