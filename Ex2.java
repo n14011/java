@@ -72,7 +72,7 @@ class Ex2_4 extends Ex{
         Scanner stdIn = new Scanner(System.in);
 
 
-        System.out.print("xの値：");// xの値の入力を促す
+        System.out.print("整数値：");// xの値の入力を促す
         int x = stdIn.nextInt();
 
 
@@ -87,10 +87,10 @@ class Ex2_5 extends Ex{
         Scanner stdIn = new Scanner(System.in);
 
 
-        System.out.print("xの値：");// xの値の入力を促す
+        System.out.print("実数値x：");// xの値の入力を促す
         int x = stdIn.nextInt();
 
-        System.out.print("yの値：");// yの値の入力を促す
+        System.out.print("実数値y：");// yの値の入力を促す
         int y = stdIn.nextInt();
 
         System.out.println("和:" + (x + y)); // x + yの値を表示
@@ -107,10 +107,10 @@ class Ex2_6 extends Ex{
 
 
         System.out.print("底辺：");// xの値の入力を促す
-        double x = stdIn.nextInt();
+        double x = stdIn.nextDouble();
 
         System.out.print("高さ：");// yの値の入力を促す
-        double y = stdIn.nextInt();
+        double y = stdIn.nextDouble();
 
 
         System.out.println("面積 " + (x * y)/2); // x * yの値を表示
@@ -118,7 +118,14 @@ class Ex2_6 extends Ex{
 
     }
 }
+class Ex2_7 extends Ex{
+    void execute(){
+        Random rand = new Random();
 
+        int a = rand.nextInt(10);// 0～9の乱数
+        System.out.println("random1~10:"+a);
+         }
+}
 public class Ex2 {
     public static void main(String[] args){
         Ex a;
@@ -136,6 +143,9 @@ public class Ex2 {
         a.execute();
         a = new Ex2_6();
         a.execute();
+        a = new Ex2_7();
+        a.execute();
+
 
     }
 }
