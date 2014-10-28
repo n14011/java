@@ -145,7 +145,7 @@ class Ex2_8 extends Ex{
         int x = stdIn.nextInt();
 
         int y = rand.nextInt(11)-5;
-        System.out.println(x+y);
+        System.out.println(x+"の±5の値は"+(x+y)+"です。");
 
 
     }
@@ -156,7 +156,7 @@ class Ex2_9 extends Ex{
    double a =rand.nextDouble();
    System.out.println("0.0以上1.0未満:"+a);
 
-   double b = rand.nextDouble()+9.0;
+   double b = rand.nextDouble()*9.0;
    System.out.println("0.0以上10.0未満"+b);
 
    double c = rand.nextDouble()*2.0-1.0;
