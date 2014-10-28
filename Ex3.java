@@ -27,6 +27,11 @@ class Ex3_1 extends Ex{
     System.out.println("絶対値:"+abs_num);
     }
 }
+class Ex3_2 extends Ex{
+    void execute(){
+
+    }
+}
 public class Ex3 {
 	public static void main(String[] args){
 		Ex a;
