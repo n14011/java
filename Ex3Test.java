@@ -319,6 +319,41 @@ public class Ex3Test {
 		String actual = ex3.ex3_10(-1,-11);
 		assertThat(actual, is(expected));
 	}
+	@Test
+	public void ex3_11_1(){
+		Ex3 ex3 = new Ex3();
+		int expected = -1;
+		int actual = ex3.ex3_11(1, 0, -1);
+		assertThat(actual, is(expected));
+	}
+	@Test
+	public void ex3_11_2(){
+		Ex3 ex3 = new Ex3();
+		int expected = -3;
+		int actual = ex3.ex3_11(-1, -2, -3);
+		assertThat(actual, is(expected));
+	}
+	@Test
+	public void ex3_11_3(){
+		Ex3 ex3 = new Ex3();
+		int expected = 0;
+		int actual = ex3.ex3_11(0, 0, 1);
+		assertThat(actual, is(expected));
+	}
+	@Test
+	public void ex3_11_4(){
+		Ex3 ex3 = new Ex3();
+		int expected = -1;
+		int actual = ex3.ex3_11(-1, -1, 0);
+		assertThat(actual, is(expected));
+	}
+	@Test
+	public void ex3_11_5(){
+		Ex3 ex3 = new Ex3();
+		int expected = 10000;
+		int actual = ex3.ex3_11(10000, 100000, 10001);
+		assertThat(actual, is(expected));
+	}
 
 	// エントリーポイント
 	public static void main(String[] args){

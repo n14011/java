@@ -109,5 +109,9 @@ class Ex3{
         return "それらの差は11以上です";
         }
 	}
+
+	public int ex3_11(int a, int b, int c){
+		return 1000;
+	}
 }
 
