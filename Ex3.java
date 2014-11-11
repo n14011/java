@@ -45,7 +45,7 @@ class Ex3{
 	public String ex3_4(int a){
         if(a%5 == 0 && a > 0){
         return "その値は5で割り切れます";
-        }else if(a%5 != 0){
+        }else if(a%5 > 0){
         return "その値は5で割り切れません";
         }else{
         return "正でない整数値です";
