@@ -99,12 +99,11 @@ class Ex3{
 	}
 
 	public int ex3_9(int a, int b){
-        int x = a-b;
-        return x;
+         return  Math.abs(a-b);
 	}
 
 	public String ex3_10(int a, int b){
-        if (a -b <= 10){
+        if (Math.abs(a -b) < 11){
         return "それらの差は10以下です";
         }else{
         return "それらの差は11以上です";
