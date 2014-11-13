@@ -115,5 +115,9 @@ class Ex3{
         int xx = Math.min(x,c);
         return xx;
     }
-    }
+
+	public int ex3_12(int a, int b, int c){
+        return 100;
+	}
+}
 
