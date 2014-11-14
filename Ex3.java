@@ -117,11 +117,37 @@ class Ex3{
     }
 
 	public int ex3_12(int a, int b, int c){
-        return 100;
+        int x = Math.max(a,b);
+        int max = Math.max(x,c);
+        int y = Math.min(a,b);
+        int min = Math.min(y,c);
+        if(a < max && a >min){
+        return a;
+        }else if(b < max && b >min){
+        return b;
+        }else if(c < max && c >min){
+        return c;
+        }else if(a==b && a!=c){
+        return a;
+        }else if(b==c && b!=a){
+        return b;
+        }else {
+        return c;
+        }
 	}
 
 	public String ex3_13(int a){
-		return "dummy";
+        if(6 > a && a > 2){
+        return "春";
+        }else if(9 > a && a > 5){
+        return "夏";
+        }else if(12 > a && a > 8){
+        return "秋";
+        }else if((3 >a && a > 0) | a == 12 ){
+        return "冬";
+        }else{
+        return "範囲(1～12)外の値です";
+        }
 	}
 }
 
