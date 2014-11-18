@@ -25,5 +25,11 @@ class Ex4{
 		return -1;
 
 	}
+
+	public int ex4_5(int a){
+		
+		return -1;
+
+	}
 }
 
