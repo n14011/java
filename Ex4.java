@@ -8,8 +8,7 @@ class Ex4{
         int tmp = a[i];
         a[1] =a[0];
         a[0]=tmp;
-        }
-        }
+        } }
 		return a;
 
 	}
@@ -42,15 +41,15 @@ class Ex4{
 	}
 
 	public int [] ex4_6(int a){
-		
+
 		int [] ret = new int[1];
-		
+
 		return ret;
 
 	}
 
 	public boolean ex4_7(int a){
-		
+
 		return false;
 
 	}
