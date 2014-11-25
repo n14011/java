@@ -13,4 +13,11 @@ class Ex6{
 		
 		return ret;
 	}
+
+	public int [] ex6_3(int a, int b){
+		
+		int [] ret = new int[1];
+		
+		return ret;
+	}
 }
