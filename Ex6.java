@@ -19,15 +19,12 @@ class Ex6{
 
 		return ret;
 	}
-<<<<<<< HEAD
-}
-=======
 
 	public int [] ex6_3(int a, int b){
-		
+
 		int [] ret = new int[1];
-		
+
+
 		return ret;
 	}
 }
->>>>>>> dcf762527a4b0ef792c4d05ea4b06dd57364c51d
